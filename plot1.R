@@ -4,7 +4,7 @@
 png(filename="plot1.png", width = 480, height = 480)
 
 #plotting
-hist(as.numeric(origDataClean$Global_active_power), xlab="Global Active Power (kilowatts)", col="red", main="Global Active Power",xlim=c(0, 6),ylim=c(0, 1200))
+hist(as.numeric(origDataClean$Global_active_power), xlab="Global Active Power (kilowatts)", col="red", main="Global Active Power")
 
 #Closing the device
 dev.off()

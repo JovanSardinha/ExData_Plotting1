@@ -4,11 +4,10 @@
 png(filename="plot4.png", width = 480, height = 480)
 
 #Plotting
-
 par(mfrow = c(2,2))
 
 #1st Plot
-with(origDataClean, plot(Global_active_power~DateTime, type="l", ylab="Global Active Power (kilowatts)", xlab=""))     
+with(origDataClean, plot(Global_active_power~DateTime, type="l", ylab="Global Active Power", xlab=""))     
 
 #2nd Plot
 with(origDataClean, plot(Voltage~DateTime, type="l", ylab="Voltage",xlab="datetime"))  
