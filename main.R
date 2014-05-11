@@ -8,11 +8,6 @@
 # Github Repo: https://github.com/JovanSardinha/ExData_Plotting1
 
 
-#changing working directory; Subject to change depending on location of this file.
-#Delete!!!!!
-wd <- "./Documents/GitHub/ExData_Plotting1"
-setwd(wd)
-
 #Packages
 install.packages("lubridate")
 
