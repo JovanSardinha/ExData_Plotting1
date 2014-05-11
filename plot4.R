@@ -1,7 +1,9 @@
 #WARNING: Do not run this .R code independently. Run it through main.R
 
-
+#Creating the .png device
 png(filename="plot4.png", width = 480, height = 480)
+
+#Plotting
 
 par(mfrow = c(2,2))
 
@@ -20,6 +22,8 @@ legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), lty=1,
 #3rd Plot
 with(origDataClean, plot(Global_reactive_power~DateTime, type="l", ylab="Global_reactive_power",xlab="datetime")) 
 
+
+#Closing the device
 dev.off()
 
 

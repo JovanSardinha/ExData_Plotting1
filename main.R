@@ -48,7 +48,7 @@ origDataClean$Time <- NULL
 #Subsetting for relevant data
 origDataClean <- subset(origDataClean, DateTime >= ymd("20070201") & DateTime < ymd("20070203"))
 
-
+#Plotting Functions
 #Plot1
 source("plot1.R")
 
